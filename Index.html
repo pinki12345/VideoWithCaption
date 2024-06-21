@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Video with Captions</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Video with Captions</h1>
+    <div>
+      <label for="video-url" class="lable-text">Video URL:</label>
+      <input
+        type="text"
+        id="video-url"
+        class="input-field"
+        placeholder="Enter video URL"
+      />
+      <button onclick="loadVideo()" class="btn">Load Video</button>
+    </div>
+    <div class="caption-container">
+      <div>
+        <label for="caption-text" class="caption-text">Caption Text:</label>
+        <input
+          type="text"
+          id="caption-text"
+          class="input-data"
+          placeholder="Enter caption text"
+        />
+      </div>
+      <div>
+        <label for="caption-time" class="caption-text"
+          >Caption Timestamp (seconds):</label
+        >
+        <input
+          type="text"
+          id="caption-time"
+          class="input-data"
+          placeholder="Enter timestamp"
+        />
+      </div>
+      <button onclick="addCaption()" class="btn-caption">Add Caption</button>
+    </div>
+
+    <div id="video-container">
+      <video id="video" controls></video>
+      <div id="captions"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

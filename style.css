@@ -1,0 +1,122 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+h1 {
+  color: blueviolet;
+}
+.lable-text {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 15px;
+  color: grey;
+}
+.input-field {
+  width: 100%;
+  max-width: 500px;
+  margin: 15px auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: white;
+  color: #333;
+  font-size: 16px;
+  outline: none;
+  box-sizing: border-box;
+}
+
+#video-container {
+  position: relative;
+  margin-top: 20px;
+}
+
+video {
+  width: 100%;
+  max-width: 600px;
+}
+
+#captions {
+  position: absolute;
+  bottom: 30px;
+  left: 10%;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  display: none;
+}
+
+.btn {
+  width: 8%;
+  margin: 25px auto;
+  padding: 10px;
+  max-width: 200px;
+  border: none;
+  border-radius: 5px;
+  background: rgb(164, 164, 170);
+  color: #333;
+  font-size: 16px;
+  outline: none;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.btn:hover {
+  background-color: #999;
+}
+.btn:active {
+  background-color: #666;
+}
+
+.caption-container {
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  width: 50%;
+  height: 50%;
+  border: none;
+  background-color: #f9f6f6;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.caption-text {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 20px;
+}
+.input-data {
+  width: 100%;
+  max-width: 300px;
+  margin: 10px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: white;
+  color: #333;
+  font-size: 16px;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.btn-caption {
+  width: 20%;
+  margin: 5px auto;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background: rgb(164, 164, 170);
+  color: #333;
+  font-size: 16px;
+  outline: none;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.btn-caption:hover {
+  background-color: #999;
+}
+.btn-caption:active {
+  background-color: #666;
+}
